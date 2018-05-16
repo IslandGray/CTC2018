@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+	
+<struts>
+    <include file="struts-default.xml"/>
+    
+    <constant name="struts.multipart.maxSize" value="4097152" />
+      
+    <package name="REG" extends="struts-default">
+    	<!-- 
+	     <action name="find-book" class="action.BookDB" method="find">
+	      	<result name="SUCCESS">/WEB-INF/pages/list.jsp</result>
+	      	<result name="NOPERSON">/WEB-INF/pages/no-person.jsp</result>
+	     </action>
+	     -->
+	     <action name="Notice">
+	      	<result>/WEB-INF/pages/Notice.jsp</result>
+	     </action>
+	     <action name="IEEE">
+	      	<result>/WEB-INF/pages/IEEE.jsp</result>
+	     </action>
+	     <action name="Org">
+	      	<result>/WEB-INF/pages/Org.jsp</result>
+	     </action>
+	     <action name="Address">
+	      	<result>/WEB-INF/pages/Address.jsp</result>
+	     </action>
+	     
+    </package>
+    
+</struts>

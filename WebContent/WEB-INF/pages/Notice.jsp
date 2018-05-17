@@ -20,6 +20,9 @@
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
+	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
+		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -98,9 +101,9 @@
 						<div class="panel-heading">重要日期</div>
 					    
 					    <ul class="list-group">
-					    	<li class="list-group-item"><span class="glyphicon glyphicon-warning-sign"></span> 征文截止日期：2018年5月20日</li>
-					    	<li class="list-group-item"><span class="glyphicon glyphicon-warning-sign"></span> 录用通知日期：2018年6月30日</li>
-					    	<li class="list-group-item"><span class="glyphicon glyphicon-warning-sign"></span> 论文修改稿截止日期：2018年7月20日（个别推荐刊物可能要提前）</li>
+					    	<li class="list-group-item"><span class="glyphicon glyphicon-saved"></span> 征文截止日期：2018年5月20日</li>
+					    	<li class="list-group-item"><span class="glyphicon glyphicon-saved"></span> 录用通知日期：2018年6月30日</li>
+					    	<li class="list-group-item"><span class="glyphicon glyphicon-saved"></span> 论文修改稿截止日期：2018年7月20日（个别推荐刊物可能要提前）</li>
 					    </ul>
 					</div>
 					<div class="panel panel-default">

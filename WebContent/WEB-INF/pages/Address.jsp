@@ -27,6 +27,9 @@
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
+	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
+		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -65,8 +68,22 @@
 		<div class="row clearfix">
 			<div class="col-md-12 column">
 					<div class="panel panel-default">
+						<div class="panel-heading">北方冰城哈尔滨市</div>
+					    <div class="panel-body" align="center">
+					    	<div style="display:inline">
+					    		<img src="./images/hotel/h1.jpg">
+						    	<img src="./images/hotel/h2.jpg">
+						    	<img src="./images/hotel/h3.jpg">
+					    	</div>
+					    </div>
+					     <ul class="list-group">
+						    <li class="list-group-item"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 哈尔滨地处东北亚中心地带，被誉为欧亚大陆桥的明珠，是第一条欧亚大陆桥和空中走廊的重要枢纽，也是中国历史文化名城、热点旅游城市和国际冰雪文化名城。是国家战略定位的“沿边开发开放中心城市”、“东北亚区域中心城市” 及“对俄合作中心城市”。</li>
+						</ul>
+					</div>
+					<div class="panel panel-default">
 						<div class="panel-heading">太阳岛花园酒店</div>
 					    <div class="panel-body" align="center">
+					    	<img src="./images/hotel/t1.jpg" width="90%">
 					    	<img src="./images/hotel/1.jpg">
 					    	<div style="display:inline">
 						    	<img src="./images/hotel/2.jpg" width="30%">

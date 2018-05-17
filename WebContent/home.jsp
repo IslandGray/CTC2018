@@ -25,6 +25,9 @@
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
+	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
+		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 

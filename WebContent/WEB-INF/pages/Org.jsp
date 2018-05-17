@@ -22,6 +22,9 @@
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
+	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
+		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -80,8 +83,8 @@
 									</tbody>
 								</table>
 						    </li>
-						     <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序主席
-						    	<table class="table ">
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序主席
+						    	<table class="table">
 						    		<tbody>
 						    			<tr><th>董剑</th><th>哈尔滨工业大学</th></tr>
 						    			<tr><th>喻文健</th><th>清华大学</th></tr>
@@ -111,7 +114,7 @@
 					%>
 					<div class="panel panel-default">
 						<ul class="list-group">
-							<li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序委员会
+							<li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序委员会(以下排名不分先后)
 								<table class="table ">
 						    		<tbody>
 					<%
@@ -119,7 +122,7 @@
 							String[] rowname=record.split("\t");
 							//System.out.println(rowname[0]);
 					%>
-						    			<tr><th><%=rowname[0] %></th><th><%=rowname[1] %></th><th><%=rowname[2] %></th></tr>
+						    			<tr><th><%=rowname[1] %></th><th><%=rowname[2] %></th></tr>
 	    			<%
 	    			}
 	    			%>

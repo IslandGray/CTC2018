@@ -20,6 +20,9 @@
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
+	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
+		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -92,19 +95,19 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">征稿要求及重要时间</div>
 					    <div class="panel-body">
-					    	<div style="text-indent:2em">
+					    	<div style="text-indent:2em;font-size: 16px;">
 					    		1）论文使用英文书写，符合IEEE Transactions on Reliability期刊的投稿格式要求。<b>请在投稿邮件中注明“Special Section on Software Testing and Fault Tolerance”</b>。截止日期为<b>5月30日</b>。<b>投稿邮箱：ctc2018@ftcl.hit.edu.cn</b>
 					    	</div>
-					    	<div style="text-indent:2em">
+					    	<div style="text-indent:2em;font-size: 16px;">
 					    		2）由CTC2018会议组织第一轮审稿，第一轮审稿结果通知时间为<b>7月15日</b>。
 					    	</div>
-					    	<div style="text-indent:2em">
+					    	<div style="text-indent:2em;font-size: 16px;">
 					    		3）通过第一轮审稿论文按照第一轮评审意见进行修改，修改稿提交日期截止<b>8月6日</b>。
 					    	</div>
-					    	<div style="text-indent:2em">
+					    	<div style="text-indent:2em;font-size: 16px;">
 					    		4）通过第一轮审稿的论文作者需要在CTC2018大会（<b>8月14-16日</b>）进行交流，会后确定推荐论文名单。
 					    	</div>
-					    	<div style="text-indent:2em">
+					    	<div style="text-indent:2em;font-size: 16px;">
 					    		5）获得推荐资格的论文将于<b>9月15日</b>提交论文修改稿到期刊IEEE Transactions on Reliability，按照期刊审稿流程直接进入期刊Round 2轮审稿。
 					    	</div>
 					    </div>

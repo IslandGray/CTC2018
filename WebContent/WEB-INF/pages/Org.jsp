@@ -1,12 +1,14 @@
+<%@page import="com.sun.rowset.internal.Row"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.util.*,java.io.*,java.util.regex.*" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="./images/ctc.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="ctc.ico" type="image/x-icon" />
     
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<title>CTC2018</title>
@@ -57,7 +59,79 @@
 	<div class="container">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
+				<div class=col-md-2 column">
 				
+				</div>
+				<div class="col-md-8 column">
+					<div class="panel panel-default">
+					     <ul class="list-group">
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018大会主席
+						    	<table class="table ">
+						    		<tbody>
+						    			<tr><th>杨孝宗</th><th>哈尔滨工业大学</th></tr>
+						    			<tr><th>李晓维</th><th>中科院计算所</th></tr>
+									</tbody>
+								</table>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018大会统筹主席
+						    	<table class="table ">
+						    		<tbody>
+						    			<tr><th>左德承</th><th>哈尔滨工业大学</th></tr>
+									</tbody>
+								</table>
+						    </li>
+						     <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序主席
+						    	<table class="table ">
+						    		<tbody>
+						    			<tr><th>董剑</th><th>哈尔滨工业大学</th></tr>
+						    			<tr><th>喻文健</th><th>清华大学</th></tr>
+						    			<tr><th>金大海</th><th>北京邮电大学</th></tr>
+						    			<tr><th>黄松</th><th>中国人民解放军陆军工程大学</th></tr>
+									</tbody>
+								</table>
+						    </li>
+						     <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018组织主席
+						    	<table class="table ">
+						    		<tbody>
+						    			<tr><th>张展</th><th>哈尔滨工业大学</th></tr>
+						    			<tr><th>叶靖</th><th>中科院计算所</th></tr>
+									</tbody>
+								</table>
+						    </li>
+						    
+						    
+						</ul>
+					</div>
+					<%
+						String txtpath=application.getRealPath("./images/list.txt");
+						System.out.println(txtpath);
+						BufferedReader br = new BufferedReader(new FileReader(txtpath));
+						String record = new String();
+						
+					%>
+					<div class="panel panel-default">
+						<ul class="list-group">
+							<li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序委员会
+								<table class="table ">
+						    		<tbody>
+					<%
+						while ((record = br.readLine()) != null){
+							String[] rowname=record.split("\t");
+							//System.out.println(rowname[0]);
+					%>
+						    			<tr><th><%=rowname[0] %></th><th><%=rowname[1] %></th><th><%=rowname[2] %></th></tr>
+	    			<%
+	    			}
+	    			%>
+									</tbody>
+								</table>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 column">
+					
+				</div>
 			</div>
 		</div>
 	</div>

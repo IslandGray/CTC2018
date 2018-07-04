@@ -53,7 +53,12 @@
 				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
-				
+				<li>
+					 <a href="Guest.action">演讲嘉宾</a>
+				</li>
+				<li>
+					 <a href="Regist.action" style="color: red">注册通知</a>
+				</li>
 			</ul>
 			
 		</div>
@@ -108,7 +113,7 @@
 					<%
 						String txtpath=application.getRealPath("./images/list.txt");
 						System.out.println(txtpath);
-						BufferedReader br = new BufferedReader(new FileReader(txtpath));
+						BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(txtpath),"UTF-8"));
 						String record = new String();
 						
 					%>

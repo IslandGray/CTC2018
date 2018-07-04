@@ -28,7 +28,25 @@
 	     <action name="Address">
 	      	<result>/WEB-INF/pages/Address.jsp</result>
 	     </action>
-	     
+	     <action name="Guest">
+	      	<result>/WEB-INF/pages/Guest.jsp</result>
+	     </action>
+	     <action name="Regist">
+	      	<result>/WEB-INF/pages/Regist.jsp</result>
+	     </action>
+	     <action name="download" class="Download">  
+		    <!-- 服务器端待下载文件的路径 -->  
+		    <param name="filePath">/WEB-INF/down</param>
+		    <!-- 处理文件下载时，一定要将返回result的类型设置为stream -->  
+		    <result name="success" type="stream">  
+		        <!-- 指定下载文件的MIME类型 -->  
+		        <param name="contentType">${contentType}</param>  
+		        <!-- 指定有当前Action 中的哪个方法返回数据流 -->  
+		        <param name="inputName">fileInputStream</param>  
+		        <!-- 指定文件下载时，浏览器处理文件的方式 -->  
+		        <param name="contentDisposition">attachment;filename="${fileName}"</param>  
+		    </result>  
+		</action>
     </package>
     
 </struts>

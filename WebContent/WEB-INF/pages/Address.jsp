@@ -58,7 +58,12 @@
 				<li class="active">
 					 <a href="Address.action">会议地点</a>
 				</li>
-				
+				<li>
+					 <a href="Guest.action">演讲嘉宾</a>
+				</li>
+				<li>
+					 <a href="Regist.action" style="color: red">注册通知</a>
+				</li>
 			</ul>
 			
 		</div>

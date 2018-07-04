@@ -12,8 +12,10 @@
 	<title>CTC2018</title>
 	
 	<style type="text/css">
-		h3{
+		h4{
 			line-height: 150%;
+			text-indent:2em;
+			text-align: left;
 			}
 	</style>
 </head>
@@ -41,7 +43,7 @@
 		
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  style="text-align: center;">
 			<ul class="nav navbar-nav" style="display: inline-block;float: none;">
-				<li class="active">
+				<li>
 					 <a href="home.jsp">首页</a>
 				</li>
 				<li>
@@ -56,13 +58,12 @@
 				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
-				<li>
+				<li class="active">
 					 <a href="Guest.action">演讲嘉宾</a>
 				</li>
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
 				</li>
-				
 			</ul>
 			
 		</div>
@@ -71,30 +72,16 @@
 	<div class="container">
 		<div class="row clearfix">
 			<div class="col-md-12 column">
-				<div class="panel panel-default">
-				    <div class="panel-body">
-				    	<div align="center">
-				    		<img src="./images/home.PNG" align="" width="40%">
-				    	</div>
-				    	<h3 style="text-indent:2em">
-							为了促进我国测试技术与容错技术领域的学术交流，中国计算机学会容错计算专业委员会决定于2018年8月14-16日在黑龙江省哈尔滨市召开第十届中国测试学术会议（CTC’18）。							
-						</h3>
-						<h3 style="text-indent:2em">
-							会议将就<u>测试、容错、可信</u>等领域的最新研究进展和发展趋势开展广泛、深入的学术交流。欢迎从事系统测试、电路测试、软件测试、可信计算、容错计算、人工智能、云计算、边缘计算、集成电路设计自动化及相关领域研究工作的产学研各界专家、学者以及学生代表踊跃投稿与参会。
-						</h3>
-						<h3 style="text-indent:2em">
-							本次测试学术会议将和International Test Conference in Asia 2018（ITC-Asia）、International Workshop on Cross-layer Resiliency 2018联合举办。
-						</h3>
-						
-				    </div>
-				    <ul class="list-group">
-					    <li class="list-group-item">主办单位：<a href="http://www.ccf.org.cn/">中国计算机学会</a></li>
-					    <li class="list-group-item">承办单位：中国计算机学会容错计算专业委员会、<a href="http://www.hit.edu.cn">哈尔滨工业大学</a></li>
-					    <li class="list-group-item">会议程序联系： 董剑        E-mail: dan@hit.edu.cn</li>
-					    <li class="list-group-item">会议组织联系： 张展        E-mail: zhangzhan@hit.edu.cn</li>
-					</ul>
-				</div>
-				
+					<div class="panel panel-default">
+						<div class="panel-heading">受邀出席的演讲嘉宾</div>
+					    <div class="panel-body" align="center">
+					    	<div style="display:inline">
+					    		<img src="./images/guest.jpg">
+					    	</div>
+					    </div>
+					     
+					</div>
+					
 			</div>
 		</div>
 	</div>

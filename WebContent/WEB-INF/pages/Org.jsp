@@ -16,14 +16,8 @@
 </head>
 <body>
 
-	<div class="row clearfix" style="background-color:RGB(0,112,192);padding:10px 20px;" align="left">
-		<img alt="can not display" src="./images/banner.PNG" width="30%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title.PNG"  width="60%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	<div class="row clearfix">
+		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
 	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
@@ -51,6 +45,9 @@
 					 <a href="Org.action">大会组织</a>
 				</li>
 				<li>
+					 <a href="Program.action">程序委员会</a>
+				</li>
+				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
 				<li>
@@ -74,42 +71,53 @@
 					<div class="panel panel-default">
 					     <ul class="list-group">
 						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018大会主席
-						    	<table class="table ">
-						    		<tbody>
-						    			<tr><th>杨孝宗</th><th>哈尔滨工业大学</th></tr>
-						    			<tr><th>李晓维</th><th>中科院计算所</th></tr>
-									</tbody>
-								</table>
+						    	：<b>杨孝宗（哈尔滨工业大学）	李晓维（中科院计算所）</b>
 						    </li>
-						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018大会统筹主席
-						    	<table class="table ">
-						    		<tbody>
-						    			<tr><th>左德承</th><th>哈尔滨工业大学</th></tr>
-									</tbody>
-								</table>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018指导委员会主席
+						    	：<b>李华伟（中科院计算所）</b>
 						    </li>
-						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序主席
-						    	<table class="table">
-						    		<tbody>
-						    			<tr><th>董剑</th><th>哈尔滨工业大学</th></tr>
-						    			<tr><th>喻文健</th><th>清华大学</th></tr>
-						    			<tr><th>金大海</th><th>北京邮电大学</th></tr>
-						    			<tr><th>黄松</th><th>中国人民解放军陆军工程大学</th></tr>
-									</tbody>
-								</table>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018指导委员会副主席
+						    	：<b style="white-space:pre">江建慧（同济大学）	黄松（陆军工程大学）	梁华国（合肥工业大学）	
+						  向东（清华大学） 左德承（哈尔滨工业大学）	韩银和（中科院计算所）</b>
+						    </li>
+						    
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018统筹主席
+						    	：<b>左德承（哈尔滨工业大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018程序委员会主席
+						    	：<b style="white-space:pre">董剑（哈尔滨工业大学）	喻文健（清华大学）	金大海（北京邮电大学）	
+					       黄松（陆军工程大学）</b>
 						    </li>
 						     <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018组织主席
-						    	<table class="table ">
-						    		<tbody>
-						    			<tr><th>张展</th><th>哈尔滨工业大学</th></tr>
-						    			<tr><th>叶靖</th><th>中科院计算所</th></tr>
-									</tbody>
-								</table>
+						    	：<b>张展（哈尔滨工业大学）	叶靖（中科院计算所）</b>
 						    </li>
-						    
-						    
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018注册主席
+						    	：<b>叶靖（中科院计算所）	周洁（哈尔滨泽权会议服务有限公司）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018宣传主席
+						    	：<b>裴颂伟（北京邮电大学）	邱柯妮（首都师范大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018网站主席
+						    	：<b>楼俊钢（湖州师范学院）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018论坛主席
+						    	：<b>江建慧（同济大学）	蒋力（上海交通大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018赞助主席
+						    	：<b>韩银和（中科院计算所）	黄松（陆军工程大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018奖励主席
+						    	：<b>汪玉（清华大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018展览主席
+						    	：<b>张颖（同济大学）</b>
+						    </li>
+						    <li class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>CTC2018专委会联络
+						    	：<b>刘淑凤（中科院计算所）</b>
+						    </li>
 						</ul>
 					</div>
+					<!--   
 					<%
 						String txtpath=application.getRealPath("./images/list.txt");
 						System.out.println(txtpath);
@@ -136,6 +144,7 @@
 							</li>
 						</ul>
 					</div>
+					-->
 				</div>
 				<div class="col-md-2 column">
 					

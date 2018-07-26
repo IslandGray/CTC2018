@@ -19,15 +19,17 @@
 </head>
 <body>
 
-	<div class="row clearfix" style="background-color:RGB(0,112,192);padding:10px 20px;" align="left">
-		<img alt="can not display" src="./images/banner.PNG" width="30%">
+	<div class="row clearfix">
+		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
 	</div>
+	<!-- 
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title.PNG"  width="60%">
 	</div>
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
 		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
 	</div>
+	 -->
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
 			 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
@@ -52,6 +54,9 @@
 				</li>
 				<li>
 					 <a href="Org.action">大会组织</a>
+				</li>
+				<li>
+					 <a href="Program.action">程序委员会</a>
 				</li>
 				<li>
 					 <a href="Address.action">会议地点</a>
@@ -85,7 +90,11 @@
 						<h3 style="text-indent:2em">
 							本次测试学术会议将和International Test Conference in Asia 2018（ITC-Asia）、International Workshop on Cross-layer Resiliency 2018联合举办。
 						</h3>
-						
+						<div>
+						<center>
+							<a href="download.action?fileName=welcome.pdf" style="color:red;font-size: 25px;text-align: center;"><u>《邀请函》下载 </u></a>
+						</center>
+						</div>
 				    </div>
 				    <ul class="list-group">
 					    <li class="list-group-item">主办单位：<a href="http://www.ccf.org.cn/">中国计算机学会</a></li>

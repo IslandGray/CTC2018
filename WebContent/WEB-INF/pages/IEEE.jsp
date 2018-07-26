@@ -14,14 +14,8 @@
 </head>
 <body>
 
-	<div class="row clearfix" style="background-color:RGB(0,112,192);padding:10px 20px;" align="left">
-		<img alt="can not display" src="./images/banner.PNG" width="30%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title.PNG"  width="60%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	<div class="row clearfix">
+		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
 	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
@@ -47,6 +41,9 @@
 				</li>
 				<li>
 					 <a href="Org.action">大会组织</a>
+				</li>
+				<li>
+					 <a href="Program.action">程序委员会</a>
 				</li>
 				<li>
 					 <a href="Address.action">会议地点</a>

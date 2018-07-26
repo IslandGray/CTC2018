@@ -25,6 +25,9 @@
 	     <action name="Org">
 	      	<result>/WEB-INF/pages/Org.jsp</result>
 	     </action>
+	     <action name="Program">
+	      	<result>/WEB-INF/pages/program.jsp</result>
+	     </action>
 	     <action name="Address">
 	      	<result>/WEB-INF/pages/Address.jsp</result>
 	     </action>

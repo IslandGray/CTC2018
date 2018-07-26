@@ -14,14 +14,8 @@
 </head>
 <body>
 
-	<div class="row clearfix" style="background-color:RGB(0,112,192);padding:10px 20px;" align="left">
-		<img alt="can not display" src="./images/banner.PNG" width="30%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title.PNG"  width="60%">
-	</div>
-	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
-		<img alt="can not display" src="./images/title-add.PNG"  width="20%">
+	<div class="row clearfix">
+		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
 	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
@@ -49,6 +43,9 @@
 					 <a href="Org.action">大会组织</a>
 				</li>
 				<li>
+					 <a href="Program.action">程序委员会</a>
+				</li>
+				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
 				<li>
@@ -68,7 +65,7 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">第十届中国测试学术会议(CTC2018)注册说明</div>
 				    <div class="panel-body">
-				    	<h5>1. 参加本次会议请填写<b>参会回执(见本页最下方)</b>并于<span style="color:red">7月25日前同时</span>发至124481529@qq.com与zhangzhan@hit.edu.cn</h5>
+				    	<h5>1. 参加本次会议请填写<b>参会回执(见本页最下方)</b>并于<span style="color:red"><del>7月25日</del>8月1日前</span>发至124481529@qq.com。若有疑问请联系哈尔滨工业大学张展老师：zhangzhan@hit.edu.cn</h5>
 				    </div>
 				    <div class="panel-body">
 				    	<h5>2. 本次会议需要收取会议注册费，注册费主要涵盖：场地费、会期午餐和晚餐、茶歇、特邀专家讲座费、交通费、照相以及其他杂费等。注册费收取标准如下：</h5>
@@ -76,18 +73,19 @@
 				    	<h5>注：</h5>
 				    	<h5>1）与CTC(2日)相比，CTC(3日)还包含了以下两个国际会议：</h5>
 				    	<h5><a href="http://www.carch.ac.cn/ITC-Asia-2018/index.html">International Test Conference in Asia (ITC-Asia) 2018</a></h5>
-				    	<h5><a href="http://39.106.13.8:8080/iwcr">International Workshop on Cross-layer Resiliency (IWCR) 2018</a></h5>
+				    	<h5><a href="http://39.106.13.8">International Workshop on Cross-layer Resiliency (IWCR) 2018</a></h5>
 				    	<h5>2）上述注册费<b>不包含</b>ITC-Asia和IWCR在8月16日下午的社交活动，社交活动额外收费490 RMB。</h5>
 				    </div>
 				    <div class="panel-body">
-				    	<h5>3. 本次会议的注册费采用银行汇款或转帐的方式，请<span style="color:red">7月25日前</span>汇至：</h5>
+				    	<h5>3. 本次会议的注册费采用银行汇款或转帐的方式，请汇至：</h5>
 				    	<h5>全称：哈尔滨泽权会议服务有限公司</h5>
 				    	<h5>帐号：1239012869406320</h5>
 				    	<h5>开户行：哈尔滨银行南岗支行</h5>
 				    	<h5>注：</h5>
 				    	<h5>1）请参会者在汇款备注栏填入：CTC注册费+参会代表姓名</h5>
 				    	<h5>2）如果多人同时支付，请指定任一参会人员的姓名，参会时由此人指定注册人员名单并领取会议费发票。</h5>
-				    	<h5>3）请将汇款后的银行回单<b>拍照</b>后，通过电子邮件发至124481529@qq.com与zhangzhan@hit.edu.cn</h5>
+				    	<h5>3）请将汇款后的银行回单<b>拍照</b>后，通过电子邮件发至124481529@qq.com</h5>
+				    	<h5>4）会议注册费发票由哈尔滨泽权会议服务有限公司开具</h5>
 				    	<!-- 
 				    	<ul class="list-group">
 				    		<li class="list-group-item"></li>
@@ -99,9 +97,14 @@
 				    	<h5><b>特别提示2</b>：黑龙江太阳岛花园酒店房间较少，请有需要的人员尽快返回参会回执。如房间已满我们会及时发布通知，以便于您改订其他酒店。</h5>
 				    </div>
 				    <div class="panel-body">
-				    	<form action="download.action?fileName=receipt.doc" method="post" enctype="multipart/form-data">
+				    	<form action="download.action?fileName=receipt.doc" method="post" enctype="multipart/form-data" style="float: left;">
 					     	<fieldset>
 								<button type="submit" class="btn btn-primary">点击此处下载参会回执</button>
+							</fieldset>
+						</form>
+						<form action="download.action?fileName=welcome.pdf" method="post" enctype="multipart/form-data" style="float: left;">
+					     	<fieldset>
+								<button type="submit" class="btn btn-warning">下载邀请函</button>
 							</fieldset>
 						</form>
 				    </div>

@@ -55,9 +55,7 @@
 				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
-				<li>
-					 <a href="Guest.action" style="color: red">大会主题报告</a>
-				</li>
+				
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
 				</li>
@@ -75,13 +73,22 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">会议日程</div>
 					    <div class="panel-body" align="center">
-					    	<form action="download.action?fileName=calendar.pdf" method="post" enctype="multipart/form-data" style="float:left;">
-					     	<fieldset>
-								<button type="submit" class="btn btn-warning">详细日程下载</button>
-							</fieldset>
-							</form>
-					    	<div style="display:inline">
+					    	
+					    	<div style="text-align:center;">
 					    		<img src="./images/calendar.jpg" width="75%">
+					    		<img src="./images/guest1.jpg" width="65%" style="margin-top:50px;">
+					    		<img src="./images/guest2.jpg" width="65%">
+					    		<img src="./images/time/time0.jpg" width="65%">
+					    		<img src="./images/time/time1.jpg" width="65%">
+					    		<img src="./images/time/time2.jpg" width="65%">
+					    		<img src="./images/time/time3.jpg" width="65%">
+					    		<img src="./images/time/time4.jpg" width="65%">
+					    		<img src="./images/time/time5.jpg" width="65%">
+					    		<img src="./images/time/se1.jpg" width="65%">
+					    		<img src="./images/time/se2.jpg" width="65%">
+					    		<img src="./images/time/se3.jpg" width="65%">
+					    		<img src="./images/time/se4.jpg" width="65%">
+					    		<img src="./images/time/se5.jpg" width="65%">
 					    	</div>
 					    </div>
 					     

@@ -50,9 +50,7 @@
 				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
-				<li>
-					 <a href="Guest.action" style="color: red">大会主题报告</a>
-				</li>
+				
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
 				</li>

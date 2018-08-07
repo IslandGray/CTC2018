@@ -75,6 +75,11 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">会议日程</div>
 					    <div class="panel-body" align="center">
+					    	<form action="download.action?fileName=calendar.pdf" method="post" enctype="multipart/form-data" style="float:left;">
+					     	<fieldset>
+								<button type="submit" class="btn btn-warning">详细日程下载</button>
+							</fieldset>
+							</form>
 					    	<div style="display:inline">
 					    		<img src="./images/calendar.jpg" width="75%">
 					    	</div>

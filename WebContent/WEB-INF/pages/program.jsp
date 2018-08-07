@@ -17,7 +17,7 @@
 <body>
 
 	<div class="row clearfix">
-		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
+		<img alt="can not display" src="./images/newbanner.png" width="100%">
 	</div>
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="navbar-header">
@@ -51,10 +51,13 @@
 					 <a href="Address.action">会议地点</a>
 				</li>
 				<li>
-					 <a href="Guest.action">演讲嘉宾</a>
+					 <a href="Guest.action" style="color: red">大会主题报告</a>
 				</li>
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
+				</li>
+				<li>
+					 <a href="Calendar.action" style="color: red">会议日程</a>
 				</li>
 			</ul>
 			

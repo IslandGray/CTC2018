@@ -55,13 +55,13 @@
 				<li>
 					 <a href="Address.action">会议地点</a>
 				</li>
-				<li class="active">
+				<li>
 					 <a href="Guest.action" style="color: red">大会主题报告</a>
 				</li>
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
 				</li>
-				<li>
+				<li class="active">
 					 <a href="Calendar.action" style="color: red">会议日程</a>
 				</li>
 			</ul>
@@ -73,11 +73,10 @@
 		<div class="row clearfix">
 			<div class="col-md-12 column">
 					<div class="panel panel-default">
-						<div class="panel-heading">大会主题报告</div>
+						<div class="panel-heading">会议日程</div>
 					    <div class="panel-body" align="center">
-					    	<div>
-					    		<img src="./images/guest1.jpg" width="65%">
-					    		<img src="./images/guest2.jpg" width="65%">
+					    	<div style="display:inline">
+					    		<img src="./images/calendar.jpg" width="75%">
 					    	</div>
 					    </div>
 					     

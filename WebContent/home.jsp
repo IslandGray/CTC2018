@@ -20,7 +20,7 @@
 <body>
 
 	<div class="row clearfix">
-		<img alt="can not display" src="./images/newbanner.jpg" width="100%">
+		<img alt="can not display" src="./images/newbanner.png" width="100%" >
 	</div>
 	<!-- 
 	<div class="row clearfix" style="background-color:RGB(0,112,192);" align="center">
@@ -62,12 +62,14 @@
 					 <a href="Address.action">会议地点</a>
 				</li>
 				<li>
-					 <a href="Guest.action">演讲嘉宾</a>
+					 <a href="Guest.action" style="color: red">大会主题报告</a>
 				</li>
 				<li>
 					 <a href="Regist.action" style="color: red">注册通知</a>
 				</li>
-				
+				<li>
+					 <a href="Calendar.action" style="color: red">会议日程</a>
+				</li>
 			</ul>
 			
 		</div>
@@ -102,8 +104,23 @@
 					    <li class="list-group-item">会议程序联系： 董剑        E-mail: dan@hit.edu.cn</li>
 					    <li class="list-group-item">会议组织联系： 张展        E-mail: zhangzhan@hit.edu.cn</li>
 					</ul>
+					
 				</div>
-				
+				<div class="panel panel-default">
+					<ul class="list-group">
+					    <li class="list-group-item">特别支持：<img alt="清华大学" src="./images/zz0.jpg" width="5%"></li>
+					    <li class="list-group-item">金牌赞助单位：
+					    	<img alt="旋极科技" src="./images/zz1.jpg" width="10%"><img alt=" " src="./images/empty.jpg" width="1%">
+					    </li>
+					    <li class="list-group-item">银牌赞助单位：
+					    	<img alt="摩尔精英" src="./images/zz2.png" width="10%"><img alt=" " src="./images/empty.jpg" width="2%">
+					    	<img alt="创景科技" src="./images/zz3.jpg" width="10%"><img alt=" " src="./images/empty.jpg" width="2%">
+					    	<img alt="JARI" src="./images/zz4.jpg" width="3%"><img alt=" " src="./images/empty.jpg" width="2%">
+					    	<img alt="TISP" src="./images/zz5.jpg" width="10%">
+					    </li>
+					    <li class="list-group-item">出版媒体合作：中科国鼎  半导体行业观察 IC咖啡</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>

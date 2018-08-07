@@ -50,6 +50,9 @@
 		        <param name="contentDisposition">attachment;filename="${fileName}"</param>  
 		    </result>  
 		</action>
+		<action name="Calendar">
+	      	<result>/WEB-INF/pages/Calendar.jsp</result>
+	     </action>
     </package>
     
 </struts>
